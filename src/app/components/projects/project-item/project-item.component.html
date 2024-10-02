@@ -8,15 +8,13 @@
     <div>
       <span class="fw-bold">Technologies used:</span>
       <ul class="technologies-list">
-        @for (technology of project.technologies; track technology) {
-          <li>{{ technology }}</li>
-        }
+        <li *ngFor="let technology of project.technologies">{{ technology }}</li>
       </ul>
     </div>
-    <div>
-      <a [href]="project.link" target="_blank" class="bt btn btn-color-3">
-        Check on Github
-      </a>
+  <div>
+    <a [href]="project.link" target="_blank" class="bt btn btn-color-3">
+    Check on Github
+    </a>
     </div>
   </div>
 </div>
