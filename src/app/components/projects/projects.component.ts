@@ -38,6 +38,13 @@ export class ProjectsComponent {
       src: './assets/projects/masked-facial-rec.png',
       link: 'https://github.com/gustavocestero/Facial-Recognition-for-Masked-Users',
     },
+    {
+      name: 'Sales App Data Engineering Project',
+      description: 'This project focuses on unifying different data sources from several file formats (JSON, YAML, CSV, and XML) and performing data analysis, which I have done through a jupyter notebook environment. The goal of the project was to ingest, match, and persist the data for further analysis, with Jupyter Notebook as the chosen environment for its clean code presentation and data visualization capabilities.',
+      technologies: ['Python', 'Jupyter Notebook', 'Git'],
+      src: './assets/projects/desktop-wallpaper-data-science-data-visualization.jpg',
+      link: 'https://github.com/gustavocestero/-Sales-app-Data-Engineering-Project',
+    },
     
   ];
 }

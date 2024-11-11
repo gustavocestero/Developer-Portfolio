@@ -12,11 +12,12 @@ export class ProfileComponent {
 
   dynamicText: string = "";
   phrases: string[] =[
-    "Team Player.",
-    "Software Developer.",
-    "Backend Engineer.",
-    "Software Engineer.",
-    "Code Enthusiast.",
+    "Team Player",
+    "Software Developer",
+    "Software Engineer",
+    "Data Analyst",
+    "Code Enthusiast",
+    "Frontend Developer",
   ];
 
   currentPhraseIndex: number = 0;
@@ -61,7 +62,8 @@ export class ProfileComponent {
   }
 
   openResume() {
-    window.open("./assets/Gustavo R. Cestero - Resume 2024.docx (1).pdf");
+    //window.open("./assets/Gustavo R. Cestero - Resume 2024.docx (1).pdf");
+    window.open("./assets/Gustavo Cestero Manzanal - Resume.pdf");
   }
 
   goToLinkedin() {
